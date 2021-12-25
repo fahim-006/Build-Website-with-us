@@ -7,11 +7,11 @@ export default function CalculateMainValue(){
     const PaymentMethod = useSelector((state)=> state.PaymentMethod);
     const TotalPage = useSelector((state)=> state.TotalPage);
     
-    const total = framework.frameworkItems.price +
-     selectedType.selectedType.price+
-     UIUXReducer.UIUXReducer.priceUIUX
-     +PaymentMethod.PaymentMethod.priceGateway
-     +TotalPage.TotalPage.PricePage
+    const total = parseInt (framework.frameworkItems.price) +
+    parseInt(selectedType.selectedType.price)+
+    parseInt(UIUXReducer.UIUXReducer.priceUIUX)
+     +parseInt(PaymentMethod.PaymentMethod.priceGateway)
+     +parseInt(TotalPage.TotalPage.PricePage)
      ;
     return(
         <div className="container">
