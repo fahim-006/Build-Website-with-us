@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h3{
+  text-align: center;
+}
+/*Header CSS*/
+
+.header{
+  border-bottom: 2px solid rgb(198, 198, 198);
+}
+ul li{
+  display: inline-block;
+  font-size: 50px;
+  text-align: center;
+}
+
+h5{
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+h4{
+  margin-left: 30px;
+}
+.ScheduleCall{
+  color: #13A2E2;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*Header CSS*/
+
+/* Main progress Bottom */
+.main-steps{
+  border-radius: 100px;
+}
+.main-steps > div {
+  border-top: 0.9rem #c0c0c0 solid;
+  color: #c0c0c0;
+  flex: 1;
+  padding: 1rem;
+  font-weight: bold;
+}
+.main-steps > div.active {
+  border-top-color: #13A2E2;
+}
+/* Main progress Bottom */
+
+/*Home CSS*/
+.list-group{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.list-group a:active{
+  border: 1px solid #2c00f0;
+}
+/*Home CSS*/
+/*Some Common CSS*/
+.nextBtn{
+  text-align: center;
+}
+
+.LinkActive{
+  color: cornflowerblue;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.LinkInActive{
+  color: rgb(187, 180, 165);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+
+.prevBtn{
+  float: right;
+}
+.vl{
+  border-left: 1px solid black;
+  height: 1000px;
+  width: fit-content;
+}
+
+.activeListElement{
+  border: 1px solid #13A2E2;
+}
+/*Some Common CSS*/
+
+
+/*add features css*/
+.addfeaturesMain{
+  border: none;
+  margin-bottom: 50px;
+}
+
+.container{
+  justify-content:center;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.container p{
+  text-align: center;
+}
+
+.container h2{
+  text-align: center;
+}
+
+.container h4{
+  text-align: center;
+  margin-top: 60%;
+}
+
+.container .btn-holder{
+  margin-top: 300px;
+  text-align: center;
+}
+

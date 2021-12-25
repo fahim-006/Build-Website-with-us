@@ -1,0 +1,1 @@
+export const SAVE_TOTAL_PAGES = 'SAVE_TOTAL_PAGES'
